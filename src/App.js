@@ -6,20 +6,21 @@ import MainPage from "./Components/MainPage/MainPage";
 
 import "./App.css";
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
+  const { searchRobots, requestRobots } = state;
   return {
-    searchField: state.searchRobots.searchField,
-    robots: state.requestRobots.robots,
-    isPending: state.requestRobots.isPending
+    searchField: searchRobots.searchField,
+    robots: requestRobots.robots,
+    isPending: requestRobots.isPending,
   };
 };
 
-const mapDispatchToProps = dispatch => {
+const mapDispatchToProps = (dispatch) => {
   return {
-    onSearchChange: event => {
+    onSearchChange: (event) => {
       dispatch(setSearchField(event.target.value));
     },
-    onRequestRobots: () => dispatch(requestRobots())
+    onRequestRobots: () => dispatch(requestRobots()),
   };
 };
 

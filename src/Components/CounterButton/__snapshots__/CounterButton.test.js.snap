@@ -3,7 +3,3 @@
 exports[`CounterButton Expect to render CounterButton Hooks Component 1`] = `ShallowWrapper {}`;
 
 exports[`CounterButton Expect to render CounterButton component 1`] = `ShallowWrapper {}`;
-
-exports[`Expect to render CounterButton Hooks Component 1`] = `ShallowWrapper {}`;
-
-exports[`Expect to render CounterButton component 1`] = `ShallowWrapper {}`;

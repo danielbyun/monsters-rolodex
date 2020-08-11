@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, memo } from "react";
 
-const CounterButtonHooks = props => {
+const CounterButtonHooks = (props) => {
   const [count, setCount] = useState(0);
   const { color } = props;
 
@@ -11,4 +11,4 @@ const CounterButtonHooks = props => {
   );
 };
 
-export default CounterButtonHooks;
+export default memo(CounterButtonHooks);

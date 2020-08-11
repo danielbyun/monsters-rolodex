@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { memo } from "react";
 import CounterButton from "../CounterButton/CounterButton";
 
 // In most cases, instead of writing shouldComponentUpdate()
@@ -6,19 +6,13 @@ import CounterButton from "../CounterButton/CounterButton";
 // equivalent to implementing shouldComponentUpdate() with a
 // shallow comparison of current and previous props and state.
 
-class Header extends Component {
-  shouldComponentUpdate(nextProps, nextState) {
-    return false;
-  }
-  render() {
-    console.log("header");
-    return (
-      <div>
-        <h1 className="f1">RoboFriends</h1>
-        <CounterButton />
-      </div>
-    );
-  }
-}
+const Header = () => {
+  return (
+    <div>
+      <h1 className="f1">RoboFriends</h1>
+      <CounterButton />
+    </div>
+  );
+};
 
-export default Header;
+export default memo(Header);
