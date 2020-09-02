@@ -1,4 +1,4 @@
-[![<ORG_NAME>](https://circleci.com/github/danielbyun/monsters-rolodex.svg?style=svg)(<LINK>)
+[![<danielbyun>](https://circleci.com/github/danielbyun/monsters-rolodex.svg?style=svg)(<https://github.com/danielbyun/monsters-rolodex>)
 
 ## Monsters-rolodex-complete
 
