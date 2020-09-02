@@ -1,4 +1,4 @@
-[![<danielbyun>(https://circleci.com/github/danielbyun/monsters-rolodex.svg?style=svg)](https://github.com/danielbyun/monsters-rolodex)
+[![<danielbyun>](https://circleci.com/github/danielbyun/monsters-rolodex.svg?style=svg)](https://github.com/danielbyun/monsters-rolodex)
 
 ## Monsters-rolodex-complete
 
