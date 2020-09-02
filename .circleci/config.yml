@@ -4,7 +4,7 @@ orbs:
 jobs:
   dannio:
     docker:
-      - image: circleci/node@3.0.0
+      - image: circleci/node
     steps:
       - checkout
       - run: echo "dan's test"
