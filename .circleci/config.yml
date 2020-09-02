@@ -12,6 +12,6 @@ workflows:
   node-tests:
     jobs:
       - node/test
-  dan_test:
-    jobs:
-      - dannio
+      - dannio:
+          requires:
+            - node/test
