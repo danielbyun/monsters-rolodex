@@ -3,6 +3,8 @@ orbs:
   node: circleci/node@3.0.0
 jobs:
   dannio:
+    docker:
+      - image: circleci/node@3.0.0
     steps:
       - checkout
       - run: echo "dan's test"
